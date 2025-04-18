@@ -1,8 +1,8 @@
-Negamax Knight♟️
+##AI CHESS
 This is a lightweight chess engine and GUI built in Python using Pygame. It supports human vs. human play as well as human vs. AI. The AI uses alpha-beta search with configurable depth, and the interface includes move animations, sound effects, undo/reset functionality, and move logging.
 
 Preview
-
+![https://github.com/salonisngh/Chess-AI/blob/main/Screenshot%20(92).png]
 
 Features
 Graphical Board: Renders an 8×8 chessboard with piece images.
@@ -13,22 +13,7 @@ Human vs. AI: AI opponent powered by alpha-beta search. Configurable search dept
 Undo / Reset: Undo one or more moves using Z, and reset the board to the starting position using R.
 Move Highlighting: Highlights the selected square and all legal moves from that square.
 Advanced Chess Rules: Supports rules like castling (king-side and queen-side), pawn promotion, and en passant captures.
-How to run 🕹️
-Clone the project
 
-  git clone https://github.com/Parthgogia/Negamax-knight.git
-Go to the project directory
-
-  cd Negamax-knight
-Install dependencies
-
-  pip install pygame
-Run the game:
-
-  python main.py
-Gameplay
-Player Mode
-You can configure which side(s) the human player controls by setting the following constants in main.py:
 
 Human vs Human:
 
